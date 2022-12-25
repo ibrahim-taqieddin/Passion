@@ -3,7 +3,7 @@
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
-            <div class="row align-items-center">
+            <div class="row align-items-center" data-aos="fade-up-left" data-aos-duration="3000">
                 <div class="col-lg-5">
                     <img class="img-fluid rounded mb-4 mb-lg-0" src="img/aboutt.jpg" alt="">
                 </div>
@@ -106,7 +106,7 @@
             color: white;
             border: 7px solid #e9ecef;
             border-radius: 100%;
-            background-color: #ffc800;
+            background-color: #ff5601;
         }
 
         .timeline>li .timeline-image h4,
@@ -307,53 +307,53 @@
 
         /* @media (min-width: 1400px) {
 
-                                                                                                                                                                                                                                        .container-xxl,
-                                                                                                                                                                                                                                        .container-xl,
-                                                                                                                                                                                                                                        .container-lg,
-                                                                                                                                                                                                                                        .container-md,
-                                                                                                                                                                                                                                        .container-sm,
-                                                                                                                                                                                                                                        .container {
-                                                                                                                                                                                                                                            max-width: 1320px;
-                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                            .container-xxl,
+                                                                                                                                                                                                                                                                                                            .container-xl,
+                                                                                                                                                                                                                                                                                                            .container-lg,
+                                                                                                                                                                                                                                                                                                            .container-md,
+                                                                                                                                                                                                                                                                                                            .container-sm,
+                                                                                                                                                                                                                                                                                                            .container {
+                                                                                                                                                                                                                                                                                                                max-width: 1320px;
+                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                        }
 
-                                                                                                                                                                                                                                    @media (min-width: 1200px) {
+                                                                                                                                                                                                                                                                                                        @media (min-width: 1200px) {
 
-                                                                                                                                                                                                                                        .container-xl,
-                                                                                                                                                                                                                                        .container-lg,
-                                                                                                                                                                                                                                        .container-md,
-                                                                                                                                                                                                                                        .container-sm,
-                                                                                                                                                                                                                                        .container {
-                                                                                                                                                                                                                                            max-width: 1140px;
-                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                            .container-xl,
+                                                                                                                                                                                                                                                                                                            .container-lg,
+                                                                                                                                                                                                                                                                                                            .container-md,
+                                                                                                                                                                                                                                                                                                            .container-sm,
+                                                                                                                                                                                                                                                                                                            .container {
+                                                                                                                                                                                                                                                                                                                max-width: 1140px;
+                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                        }
 
-                                                                                                                                                                                                                                    @media (min-width: 992px) {
+                                                                                                                                                                                                                                                                                                        @media (min-width: 992px) {
 
-                                                                                                                                                                                                                                        .container-lg,
-                                                                                                                                                                                                                                        .container-md,
-                                                                                                                                                                                                                                        .container-sm,
-                                                                                                                                                                                                                                        .container {
-                                                                                                                                                                                                                                            max-width: 960px;
-                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                            .container-lg,
+                                                                                                                                                                                                                                                                                                            .container-md,
+                                                                                                                                                                                                                                                                                                            .container-sm,
+                                                                                                                                                                                                                                                                                                            .container {
+                                                                                                                                                                                                                                                                                                                max-width: 960px;
+                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                        }
 
-                                                                                                                                                                                                                                    @media (min-width: 768px) {
+                                                                                                                                                                                                                                                                                                        @media (min-width: 768px) {
 
-                                                                                                                                                                                                                                        .container-md,
-                                                                                                                                                                                                                                        .container-sm,
-                                                                                                                                                                                                                                        .container {
-                                                                                                                                                                                                                                            max-width: 720px;
-                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                            .container-md,
+                                                                                                                                                                                                                                                                                                            .container-sm,
+                                                                                                                                                                                                                                                                                                            .container {
+                                                                                                                                                                                                                                                                                                                max-width: 720px;
+                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                        }
 
-                                                                                                                                                                                                                                    @media (min-width: 576px) {
+                                                                                                                                                                                                                                                                                                        @media (min-width: 576px) {
 
-                                                                                                                                                                                                                                        .container-sm,
-                                                                                                                                                                                                                                        .container {
-                                                                                                                                                                                                                                            max-width: 540px;
-                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                    } */
+                                                                                                                                                                                                                                                                                                            .container-sm,
+                                                                                                                                                                                                                                                                                                            .container {
+                                                                                                                                                                                                                                                                                                                max-width: 540px;
+                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                        } */
 
         .container,
         .container-fluid,
@@ -379,13 +379,70 @@
             display: block;
         }
     </style>
+    <div class='container'>
+        <div class='card' style="background-color: #d2c8c8">
+            <div class='content'>
+                <h1 style="color: #ff5601"> A Short Overview of Our Approach:</h1><br><br>
+                <p style="color: #44425A">
+
+                    <b> 1. We maintain direct contact with each student during each stage of the program.
+                </p><br></b>
+
+                <p style="color: #44425A"><b> 2. Students who achieve low scores during any of the program’s initial stages
+                        have the option of
+                        repeating the
+                        relevant exams, as the goal is to help students and enrich their knowledge, and not to create an
+                        atmosphere of
+                        undue
+                        stress or pressure.</p><br></b>
+
+                <p style="color: #44425A"><b> 3. We maintain a direct relationship with each student’s parents and follow
+                        up
+                        with them on a
+                        regular basis so
+                        that
+                        they remain informed about their child’s progress, with appropriate guidance offered for each
+                        stage
+                        of the
+                        program.</p><br></b>
+
+                <p style="color: #44425A"><b> 4. The duration of each stage ranges from 1 month to 3 months, depending on
+                        both
+                        student achievement
+                        and
+                        progress.</p><br></b>
+
+                <p style="color: #44425A"><b> 5. Courses are divided into a combination of online and in-person classes,
+                        according to what is
+                        agreed upon by
+                        students and their teachers.</p><br></b>
+
+                <p style="color: #44425A"><b> 6. An admissions test is administered prior to the start of the program to
+                        assess students’ academic
+                        levels and
+                        other skills.</p><br></b>
+
+                <p style="color: #44425A"><b> 7. Between each stage of the program, students take a number of personal
+                        development and psychology
+                        courses in
+                        order
+                        to nourish this part of a student’s development that is overlooked by many. While most companies
+                        undoubtedly
+                        want to
+                        work with smart people, they also seek to recruit those who are friendly, easy-going, and able
+                        to
+                        get along with
+                        their colleagues and supervisors.</p><br></b>
+            </div>
+        </div>
+    </div>
+    </section>
+    <br><br><br><br><br>
 
     <section class="page-section" id="about">
         <div class="container">
             <div class="text-center">
-                <h3 class="section-heading text-uppercase">The project was divided into 7 successive stages to make it
-                    easier
-                    for the student to understand each stage and pass it with all its requirements, which are divided as
+                <h3 class="section-heading text-uppercase">The project was divided into 7 successive stages as
                     follows:</h3>
             </div><br><br><br>
             <ul class="timeline">
@@ -453,7 +510,8 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"></div>
+                    <div class="timeline-image">
+                    </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             {{-- <h4>July 2020</h4> --}}
@@ -536,11 +594,9 @@
                 </li>
             </ul>
         </div>
-        <style>
 
-        </style>
-        <br><br><br><br><br>
-        <div class='container'>
+
+        {{-- <div class='container'>
             <div class='card' style="background-color: #de6e24">
                 <div class='content'>
                     <h1> A Short Overview of Our Approach:</h1><br><br>
@@ -598,8 +654,8 @@
             </div>
         </div>
     </section>
+ --}}
 
 
-
-    <!-- end road map -->
-@endsection
+        <!-- end road map -->
+    @endsection

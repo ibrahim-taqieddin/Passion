@@ -52,49 +52,98 @@
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
                                 <div class="card-body p-4 p-lg-5 text-black">
 
-                                    <form>
+                                    <form action="/register-user" method="POST"
+                                        enctype="application/x-www-form-urlencoded">
+                                        @csrf
                                         <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">We Are So Proud Of
-                                            You, Sign Up NOW!</h5>
+                                            You, Sign Up NOW !</h5>
+
+                                        @error('name')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
                                         <div class="form-outline mb-4">
-                                            <input type="email" id="form2Example17"
+                                            <label class="form-label text-dark" for="form2Example17">Name</label>
+                                            <input name="name" type="text" id="form2Example17"
                                                 class="form-control text-dark form-control-lg" />
+                                        </div>
+
+                                        @error('name')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
+                                        <div class="form-outline mb-4">
                                             <label class="form-label text-dark" for="form2Example17">Email</label>
+                                            <input name="email" type="email" id="form2Example17"
+                                                class="form-control text-dark form-control-lg" />
                                         </div>
 
+                                        @error('password')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
                                         <div class="form-outline mb-4">
-                                            <input type="password " id="form2Example27"
-                                                class="form-control text-dark form-control-lg" />
                                             <label class="form-label text-dark" for="form2Example27">Password</label>
+                                            <input name="password" type="password" id="form2Example27"
+                                                class="form-control text-dark form-control-lg" />
                                         </div>
 
+                                        @error('password_confirmation')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
                                         <div class="form-outline mb-4">
-                                            <input type="email" id="form2Example17"
+                                            <label class="form-label text-dark" for="form2Example">Confirm
+                                                Password</label>
+                                            <input name="password_confirmation" type="password" id="form2Example"
                                                 class="form-control text-dark form-control-lg" />
+                                        </div>
+
+                                        @error('age')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label text-dark" for="form2Example17">Age</label>
+                                            <input name="age" type="text" id="form2Example17"
+                                                class="form-control text-dark form-control-lg" />
+                                        </div>
+                                        @error('store_image')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
+                                        <div class=" mb-4">
+                                            <label for="formFileLg" class="form-label">
+                                                <p class="my-font">صورة المتجر</p>
+                                            </label>
+                                            <input name="store_image" class="form-control form-control-lg"
+                                                id="formFileLg" type="file" />
+                                        </div>
+
+                                        @error('phone')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
+                                        <div class="form-outline mb-4">
                                             <label class="form-label text-dark" for="form2Example17">Mobile
                                                 Phone</label>
+                                            <input name="phone" type="number" id="form2Example17"
+                                                class="form-control text-dark form-control-lg" />
                                         </div>
 
+                                        @error('address')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
                                         <div class="form-outline mb-4">
-                                            <input type="email" id="form2Example17"
-                                                class="form-control text-dark form-control-lg" />
                                             <label class="form-label text-dark" for="form2Example17">Address</label>
-                                        </div>
-                                        <div class="form-outline mb-4">
-                                            <input type="email" id="form2Example17"
+                                            <input name="address" type="text" id="form2Example17"
                                                 class="form-control text-dark form-control-lg" />
-                                            <label class="form-label text-dark" for="form2Example17">Age</label>
                                         </div>
-                                        {{-- <div class="form-outline mb-4">
-                                            <input type="email" id="form2Example17"
-                                                class="form-control text-dark form-control-lg" />
-                                            <label class="form-label text-dark" for="form2Example17">Last GPA</label>
-                                        </div> --}}
-
-
-
 
                                         <div class="pt-1 mb-4">
-                                            <button class="btn btn-dark btn-lg btn-block" type="button">SIGN
+                                            <button type="submit" class="btn btn-dark btn-lg btn-block"
+                                                type="button">SIGN
                                                 UP</button>
                                         </div>
 

@@ -23,6 +23,9 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,7 +34,7 @@
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3">
                 <a href="/" class="text-decoration-none">
-                    <img src="./img/logo2.png" width=150px height=100px>
+                    <img src="./img/passion.png" height=70px>
                     <!-- <h1 class="m-0"><span class="text-primary">FIRST</span>Steps</h1> -->
                 </a>
             </div>
@@ -109,6 +112,7 @@
                     class="fa fa-angle-double-up"></i></a>
 
 
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <!-- JavaScript Libraries -->
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -121,6 +125,9 @@
 
             <!-- Template Javascript -->
             <script src="js/main.js"></script>
+            <script>
+                AOS.init();
+            </script>
 </body>
 
 </html>

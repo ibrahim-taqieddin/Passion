@@ -52,28 +52,34 @@
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
                                 <div class="card-body p-4 p-lg-5 text-black">
 
-                                    <form>
-
-
-
+                                    <form action='/login-user' method="POST">
+                                        @csrf
                                         <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">We Are So Proud Of
                                             You, Sign IN Please!</h5>
 
+                                        @error('email')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
                                         <div class="form-outline mb-4">
-                                            <input type="email" id="form2Example17"
-                                                class="form-control text-dark form-control-lg" />
                                             <label class="form-label text-dark" for="form2Example17">Email
                                                 address</label>
+                                            <input name="email" type="email" id="form2Example17"
+                                                class="form-control text-dark form-control-lg" />
                                         </div>
 
+                                        @error('password')
+                                            <p style="font-size:medium" class="text-danger mb-0 right">{{ $message }}
+                                            </p>
+                                        @enderror
                                         <div class="form-outline mb-4">
-                                            <input type="password " id="form2Example27"
-                                                class="form-control text-dark form-control-lg" />
                                             <label class="form-label text-dark" for="form2Example27">Password</label>
+                                            <input name="password" type="password " id="form2Example27"
+                                                class="form-control text-dark form-control-lg" />
                                         </div>
 
                                         <div class="pt-1 mb-4">
-                                            <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                                            <button class="btn btn-dark btn-lg btn-block" type="submit">Login</button>
                                         </div>
                                         {{-- #FF6600 --}}
                                         <a class="small text-muted" href="#!">Forgot password? </a>

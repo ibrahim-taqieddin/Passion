@@ -99,7 +99,4 @@
         </div>
     </div>
     <!-- Category Start -->
-
-
-   
 @endsection
