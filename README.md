@@ -56,6 +56,11 @@ Users can be able to give a feedback and testimonial.
 
  LINKS: 
  
- 1-Wireframe and mock up: https://www.figma.com/file/PcWUjNwuGSBCb9hk4gus5b/first-step-academy?node-id=0%3A1&t=k4IbAKgayIJtfEOB-0
+ 1-Wireframe and mockup: https://www.figma.com/file/PcWUjNwuGSBCb9hk4gus5b/first-step-academy?node-id=0%3A1&t=k4IbAKgayIJtfEOB-0
 
  2- TRELLO : https://trello.com/b/Kov84F0c/passion
+
+ 3- DOCUMANTATION : [PASSION-documantation.pdf](https://github.com/ibrahim-taqieddin/Passion/files/10300410/PASSION-documantation.pdf)
+ 
+ 4- PRESENTATION : [Passion- presentation.pdf](https://github.com/ibrahim-taqieddin/Passion/files/10300413/Passion-.presentation.pdf)
+
